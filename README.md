@@ -1,2 +1,2 @@
 # Software_Testing
-this repo has all about manual and automation scripts for various websites and mobile apps
+In this repo there is a collection of manual and automation scripts for various websites and mobile apps
