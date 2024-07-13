@@ -6,9 +6,7 @@ public class SearchTest extends TestBase {
 
 
     HomePage homePage;
-    PageBase pageBase;
 
-    public void ValidSearch (){
 
         homePage = new HomePage(driver);
         homePage.ClickSearchButton("Development");
