@@ -7,7 +7,7 @@ public class PageBase {
 
     public PageBase (WebDriver driver){
 
-        this.driver = driver;
+        this.driver = driver; //s
     }
 
     public static void SendText (WebElement element , String text){
