@@ -1,6 +1,6 @@
 import org.testng.annotations.Test;
 
-import java.security.PrivateKey;
+
 
 public class RegisterPageTest extends TestBase {
 
@@ -13,7 +13,7 @@ public class RegisterPageTest extends TestBase {
     registerpage = homepage.ClickRegisterButton();
     Thread.sleep(3000);
     registerpage.ClickONCaptchu();
-    registerpage.enterFullName("Ahmed Attif Ahmed");
+    registerpage.enterFullName("Ahmed Atef Ahmed");
     registerpage.enterMail("ahmedatef07718@gmail.com");
     registerpage.enterPassword("ahmed123@@@@@@");
     registerpage.ClickONSignUpButton();
